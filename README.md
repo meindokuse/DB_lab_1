@@ -47,19 +47,6 @@ psql -h localhost -U postgres -d delivery_db -f constraints_test.sql
 psql -h localhost -U postgres -d delivery_db -f migration.sql
 ```
 
----
-
-## Просмотр базы данных в VS Code
-
-1. Установите расширение **Database Client** (ID: `cweijan.vscode-database-client2`) либо **SQLTools** (`mtxr.sqltools`).
-2. В боковой панели выберите подключение к PostgreSQL:
-   - **Host**: `localhost`
-   - **Port**: `5432`
-   - **Database**: `delivery_db`
-   - **User / Password**: `postgres` / `postgres`
-3. Дважды кликните по любой таблице для просмотра данных или выберите схему `public` $\to$ **Design / ER Diagram** для отображения графической схемы связей.
-
----
 
 ## Состав файлов проекта
 
