@@ -72,5 +72,3 @@ psql -h localhost -U postgres -d delivery_db -f migration.sql
 | `demo.sh` | Интерактивный bash-скрипт демонстрации (Docker и Local) |
 | `Makefile` | Набор быстрых команд управления и запуска |
 | `docker-compose.yml` | Конфигурация контейнера PostgreSQL 16 |
-| `DEMO_GUIDE.md` | Подробная шпаргалка к сдаче и ответы на частые вопросы преподавателя |
-| `.vscode/` | Рекомендации расширений и готовые настройки подключения к БД |
