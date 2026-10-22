@@ -1,0 +1,14 @@
+{
+  "sqltools.connections": [
+    {
+      "name": "Delivery DB (PostgreSQL)",
+      "dialect": "PostgreSQL",
+      "server": "localhost",
+      "port": 5432,
+      "database": "delivery_db",
+      "username": "postgres",
+      "password": "postgres",
+      "askForPassword": false
+    }
+  ]
+}
